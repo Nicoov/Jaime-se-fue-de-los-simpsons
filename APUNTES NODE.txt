@@ -1,0 +1,33 @@
+para la instalacion del node js
+
+npm install  en la ubicacion del proyecto
+
+Dependencias necesarias para el desarrollo en nodeJS
+
+1- npm install express --save  = el express es un framework que permite trabajar con http, recibir peticiones en http y es fundamental para el desarrollo web 
+El --save permite guardar la dependencia en el proyecto 
+
+2- npm install  body-parse --save = es una libreria que permiter convertir  las peticiones que se hacen en backend a  un objeto json usable en js
+
+3- npm install  connect-multiparty --save = permite subir archivos 
+
+4- npm install  mongoose --save = lriberia para trabajar con mongoDB, para realizar entidades, metodos, etc. 
+
+5- npm install  nodemon --save-dev = cada vez que se hace u n cambio en el codigo este se refresque 
+
+NODE:
+
+CONST: permite definir variables que no se van a cambiar en todo el programa
+
+REQUIRE: 
+
+Peticiones de mysql:
+
+await: permite qe las peticiones se tomen su tiempo, cuando se termine de procesar va a pasar a la siguiente linea
+-----------------------------------------------------------------------------------------
+// esta funcion toma la informacion del usuario(req), toma lo que el servidor quiera responder (res), finalmente para conitnuiar con el codigo (next)
+
+// routes *se definen las rutas donde el usuario va a navegar*
+
+
+
